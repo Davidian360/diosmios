@@ -567,7 +567,7 @@ int ehci_do_urb ( struct ehci_device *dev, struct ehci_urb	*urb)
 	{
 		return urb->actual_length;
     }
-    ehci_dbg ( "EHCI:unsuccessfull urb %d!!\n", retval);
+    ehci_dbg ( "EHCI:unsuccessful urb %d!!\n", retval);
     return retval;
 }
 
